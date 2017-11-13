@@ -6,6 +6,7 @@ Example Usage:
 
 clf = DLClassifier(max_iters, depth, width_hidden, learning_rate , activation_func = func, \
                  regulariser = regulariser, lamda = lamda)
+
 #Using Demo data, but we can use any data 
 X, Y = clf.my_data()
 
