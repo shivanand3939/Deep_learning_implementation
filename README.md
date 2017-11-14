@@ -6,8 +6,8 @@ Example Usage:
 
 clf = DLClassifier(max_iters, depth, width_hidden, learning_rate , activation_func = 'tanh', \
                  regulariser = 'R', lamda = 0.1)
-
 #Using Demo data, but we can use any data 
+
 X, Y = clf.my_data()
 
 X_train, Y_train, X_test, Y_test = clf.train_test_split(X, Y, 0.2)
